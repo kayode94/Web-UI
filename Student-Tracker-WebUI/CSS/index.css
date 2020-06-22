@@ -21,6 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 62.5%;
 	font: inherit;
+	font-family: 'Maitree', serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -47,6 +48,105 @@ table {
 	border-spacing: 0;
 }
 
+/* Header Styles */
+header{
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	margin-left:5%;
+}
+
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+h2{
+	font-size: 1.5rem;
+	margin-left:2%;
+}
+
+
+/* Nav Styles */
+
+.header-menu{
+	display:flex;
+	justify-content: end;
+	background-color: aquamarine;
+	margin-top:2%;
+}
+
+.header-menu a{
+	margin-left:2%;
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-right:2%;
+	text-decoration: none;
+}
+
+.header-menu a:hover{
+	color:red;
+}
+
+/* Main Text Styles */
+
+.main-text{
+	margin-top:4%;
+	margin-left:5%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-text p{
+	font-size: 1.5rem;
+	width:30%;
+	margin-top:2%;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+
+.main-text h1{
+	width:30%;
+	font-size: 3.2rem;
+	margin-bottom:4%;
+}
+
+.main-text img{
+	border:2px solid;
+}
+
+.button{
+	display:flex;
+	flex-direction: column;
+	width:20%;
+	margin-top:1%;
+}
+
+button{
+	font-size: 1.5rem;
+}
+
+button :hover{
+	color:red;
+}
+
+/* Footer Styles */
+
+.footer-menu{
+	display:flex;
+	justify-content: end;
+	background-color: aquamarine;
+	margin-top:2%;
+}
+
+.footer-menu a{
+	margin-left:2%;
+	margin-top:1%;
+	margin-bottom:1%;
+	text-decoration: none;
+	margin-right:2%;
+}
+
+.footer-menu a:hover{
+	color:red;
 }
