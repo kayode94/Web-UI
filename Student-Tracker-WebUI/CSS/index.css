@@ -87,8 +87,8 @@ h2{
 	margin-bottom:1%;
 	margin-right:2%;
 	text-decoration: none;
+	font-size: 1.2rem;
 	color:black;
-	border:2px solid;
 }
 
 .header-menu a:hover{
@@ -111,12 +111,14 @@ h2{
 	margin-top:2%;
 	margin-left:2%;
 	margin-bottom:2%;
+	text-align: center;
 }
 
 .main-text h1{
 	width:30%;
 	font-size: 3.2rem;
 	margin-bottom:4%;
+	text-align: center;
 }
 
 .main-text img{
@@ -156,9 +158,8 @@ button :hover{
 	margin-bottom:1%;
 	text-decoration: none;
 	margin-right:2%;
-	color:black;
-	border:2px solid;
-	
+	color:black;	
+	font-size: 1.2rem;
 }
 
 .footer-menu a:hover{
@@ -182,9 +183,11 @@ button :hover{
 	}
 	.main-text p{
 		width:100%;
+		text-align: center;
 	}
 	.main-text h1{
 		width:70%;
+		text-align: center;
 	}
 	img{
 		width:80%;
@@ -199,8 +202,7 @@ button :hover{
 	.footer-menu{
 		flex-direction: column;
 		align-items: center;
-		width:70%;
-		margin-left: 15%;
+		width:100%;
 	}
 	.footer-menu a{
 		font-size: 1.5rem;
