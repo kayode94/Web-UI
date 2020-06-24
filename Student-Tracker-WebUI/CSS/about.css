@@ -122,7 +122,7 @@ img{
 	height:600px;
 	margin-top:2%;
 	/* border:2px solid; */
-	margin-left:7%;
+	margin-left:6%;
 	font-size: 1.5rem;
 }
 
@@ -153,33 +153,12 @@ img{
 	/* border:2px solid; */
 	margin-left:10%;
 	font-size: 1.5rem;
+	margin-bottom: 1%;
 }
 .About-pics2 h5{
 	margin-top: 1%;
 }
 
-/* Footer Styles */
-
-.footer-menu{
-	display:flex;
-	justify-content: space-evenly;
-	background-color: aquamarine;
-	margin-top:2%;
-	width:100%;
-	position: relative;
-}
-
-.footer-menu a{
-	margin-left:2%;
-	margin-top:1%;
-	margin-bottom:1%;
-	margin-right:2%;
-	text-decoration: none;
-}
-
-.footer-menu a:hover{
-	color:red;
-}
 
 /* 500px media styles */
 @media (max-width:500px){
