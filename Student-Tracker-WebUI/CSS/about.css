@@ -36,7 +36,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -76,8 +76,7 @@ h2{
 	justify-content: space-evenly;
 	background-color: aquamarine;
 	margin-top:2%;
-	margin-left: 5%;
-	width:90%;
+	width:100%;
 }
 
 .header-menu a{
@@ -104,4 +103,152 @@ h2{
 .About-text p{
 	margin-top: 2%;
 	width:50%;
+	font-size: 1.5rem;
+}
+
+img{
+	width:300px;
+	height:300px;
+	border-radius: 50%;
+	margin-top:3%;
+}
+
+.About-pics{
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	width:90%;
+	height:600px;
+	margin-top:2%;
+	/* border:2px solid; */
+	margin-left:7%;
+	font-size: 1.5rem;
+}
+
+.About-pics p{
+	width:20%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.About-pics h5{
+	margin-top: 1%;
+}
+
+.About-pics2 p{
+	width:25%;
+	margin-top: 1%;
+	text-align: center;
+}
+
+.About-pics2{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width:80%;
+	height:500px;
+	margin-top:2%;
+	align-items: center;
+	/* border:2px solid; */
+	margin-left:10%;
+	font-size: 1.5rem;
+}
+.About-pics2 h5{
+	margin-top: 1%;
+}
+
+/* Footer Styles */
+
+.footer-menu{
+	display:flex;
+	justify-content: space-evenly;
+	background-color: aquamarine;
+	margin-top:2%;
+	width:100%;
+	position: relative;
+}
+
+.footer-menu a{
+	margin-left:2%;
+	margin-top:1%;
+	margin-bottom:1%;
+	margin-right:2%;
+	text-decoration: none;
+}
+
+.footer-menu a:hover{
+	color:red;
+}
+
+/* 500px media styles */
+@media (max-width:500px){
+	.header-menu{
+		flex-direction: column;
+		align-items: center;
+	}
+	.header-menu a{
+		font-size: 1.5rem;
+		margin-top: 3%;
+	}
+	header{
+		align-items: center;
+	}
+	.About-text p{
+		width:90%;
+	}
+	.About-pics{
+		height:900px;
+		flex-wrap: nowrap;
+	}
+	.About-pics2{
+		margin-top: 1100px;
+		height:900px;
+		flex-wrap: nowrap;
+	}
+	.About-pics p{
+		margin-top: 2%;
+		width:50%;
+	}
+	.About-pics2 p{
+		margin-top: 2%;
+		width:90%;
+	}
+}
+
+/* 800px media styles */
+
+@media (max-width:800px){
+	.header-menu{
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	.header-menu a{
+		font-size: 1.5rem;
+		margin-top: 3%;
+	}
+	header{
+		align-items: center;
+	}
+	.About-text p{
+		width:90%;
+	}
+	.About-pics{
+		height:900px;
+		flex-wrap: nowrap;
+	}
+	.About-pics2{
+		margin-top: 1100px;
+		height:900px;
+		flex-wrap: nowrap;
+	}
+	.About-pics p{
+		margin-top: 2%;
+		width:50%;
+	}
+	.About-pics2 p{
+		margin-top: 2%;
+		width:90%;
+	}
 }
