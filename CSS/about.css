@@ -218,9 +218,10 @@ img{
 	.About-pics{
 		height:900px;
 		flex-wrap: nowrap;
+		margin-top: 5%;
 	}
 	.About-pics2{
-		margin-top: 1100px;
+		margin-top: 950px;
 		height:900px;
 		flex-wrap: nowrap;
 	}
